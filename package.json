@@ -1,0 +1,37 @@
+{
+  "name": "udf",
+  "version": "0.0.0",
+  "description": "Universal Disk Format",
+  "license": "MIT",
+  "keywords": [
+    "udf",
+    "disk",
+    "format",
+    "filesystem",
+    "fs",
+    "file",
+    "system",
+    "universal"
+  ],
+  "main": "lib/udf",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
+  "dependencies": {},
+  "devDependencies": {
+    "tap-spec": "~4.1.0",
+    "tape": "~4.2.1"
+  },
+  "scripts": {
+    "test": "tape | tap-spec"
+  },
+  "homepage": "https://github.com/jhermsmeier/node-udf",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhermsmeier/node-udf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-udf/issues"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
