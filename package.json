@@ -1,28 +1,25 @@
 {
   "name": "udf",
   "version": "0.0.0",
-  "description": "Universal Disk Format",
+  "description": "Universal Disk Format (UDF) file system driver",
   "license": "MIT",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
   "keywords": [
     "udf",
-    "disk",
-    "format",
-    "filesystem",
+    "osta",
     "fs",
+    "disk",
+    "image",
+    "iso",
+    "filesystem",
     "file",
-    "system",
-    "universal"
+    "format"
   ],
-  "main": "lib/udf",
-  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
+  "main": "lib/udf.js",
   "dependencies": {},
-  "devDependencies": {
-    "tap-spec": "~4.1.0",
-    "tape": "~4.2.1"
-  },
-  "scripts": {
-    "test": "tape | tap-spec"
-  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
   "homepage": "https://github.com/jhermsmeier/node-udf",
   "repository": {
     "type": "git",
@@ -31,7 +28,11 @@
   "bugs": {
     "url": "https://github.com/jhermsmeier/node-udf/issues"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "directories": {
+    "doc": "doc",
     "test": "test"
   }
 }
