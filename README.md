@@ -1,12 +1,15 @@
-# OSTA Universal Disk Format (UDF)
-[![npm](http://img.shields.io/npm/v/udf.svg?style=flat-square)](https://npmjs.com/udf)
-[![npm downloads](http://img.shields.io/npm/dm/udf.svg?style=flat-square)](https://npmjs.com/udf)
-[![build status](http://img.shields.io/travis/jhermsmeier/node-udf.svg?style=flat-square)](https://travis-ci.org/jhermsmeier/node-udf)
+# Universal Disk Format (UDF)
+[![npm](https://img.shields.io/npm/v/udf.svg?style=flat-square)](https://npmjs.com/package/udf)
+[![npm license](https://img.shields.io/npm/l/udf.svg?style=flat-square)](https://npmjs.com/package/udf)
+[![npm downloads](https://img.shields.io/npm/dm/udf.svg?style=flat-square)](https://npmjs.com/package/udf)
+[![build status](https://img.shields.io/travis/jhermsmeier/node-udf.svg?style=flat-square)](https://travis-ci.org/jhermsmeier/node-udf)
+
+Universal Disk Format (UDF) file system driver
 
 ## Install via [npm](https://npmjs.com)
 
 ```sh
-$ npm install udf
+$ npm install --save udf
 ```
 
 ## Specification
