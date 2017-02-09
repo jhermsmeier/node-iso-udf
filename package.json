@@ -16,7 +16,10 @@
     "format"
   ],
   "main": "lib/udf.js",
-  "dependencies": {},
+  "dependencies": {
+    "async": "~2.1.4",
+    "debug": "~2.6.0"
+  },
   "devDependencies": {},
   "peerDependencies": {},
   "optionalDependencies": {},
