@@ -3,6 +3,7 @@ var BlockDevice = require( 'blockdevice' )
 var util = require( 'util' )
 var fs = require( 'fs' )
 var path = require( 'path' )
+var argv = process.argv.slice(2)
 
 function inspect( value ) {
   return util.inspect( value, {
@@ -15,7 +16,7 @@ var EOL = '\n'
 
 console.log( EOL + 'UDF', inspect( UDF ) )
 
-var imagePath = path.join( process.env.HOME, 'Downloads', 'image.iso' )
+var imagePath = path.resolve( argv.shift() )
 var stats = fs.statSync( imagePath )
 
 console.log( EOL + 'stats', inspect( stats ) )
