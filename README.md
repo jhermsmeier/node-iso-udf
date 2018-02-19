@@ -1,15 +1,15 @@
 # Universal Disk Format (UDF)
-[![npm](https://img.shields.io/npm/v/udf.svg?style=flat-square)](https://npmjs.com/package/udf)
-[![npm license](https://img.shields.io/npm/l/udf.svg?style=flat-square)](https://npmjs.com/package/udf)
-[![npm downloads](https://img.shields.io/npm/dm/udf.svg?style=flat-square)](https://npmjs.com/package/udf)
-[![build status](https://img.shields.io/travis/jhermsmeier/node-udf.svg?style=flat-square)](https://travis-ci.org/jhermsmeier/node-udf)
+[![npm](https://img.shields.io/npm/v/iso-udf.svg?style=flat-square)](https://npmjs.com/package/iso-udf)
+[![npm license](https://img.shields.io/npm/l/iso-udf.svg?style=flat-square)](https://npmjs.com/package/iso-udf)
+[![npm downloads](https://img.shields.io/npm/dm/iso-udf.svg?style=flat-square)](https://npmjs.com/package/iso-udf)
+[![build status](https://img.shields.io/travis/jhermsmeier/node-iso-udf.svg?style=flat-square)](https://travis-ci.org/jhermsmeier/node-iso-udf)
 
-Universal Disk Format (UDF) file system driver
+OSTA Universal Disk Format (UDF) / ISO 9660 file system
 
 ## Install via [npm](https://npmjs.com)
 
 ```sh
-$ npm install --save udf
+$ npm install --save iso-udf
 ```
 
 ## Specification
@@ -20,7 +20,7 @@ this module aims to implement [Revision 2.60](http://www.osta.org/specs/pdf/udf2
 ## Usage
 
 ```js
-var UDF = require( 'udf' )
+var UDF = require( 'iso-udf' )
 ```
 
 ## References

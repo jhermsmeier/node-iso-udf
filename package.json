@@ -1,7 +1,7 @@
 {
-  "name": "udf",
+  "name": "iso-udf",
   "version": "0.0.0",
-  "description": "Universal Disk Format (UDF) file system driver",
+  "description": "OSTA Universal Disk Format (UDF) / ISO 9660 file system",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
   "license": "MIT",
   "keywords": [
@@ -11,6 +11,8 @@
     "disk",
     "image",
     "iso",
+    "iso9660",
+    "9660",
     "filesystem",
     "file",
     "format"
@@ -26,13 +28,13 @@
   },
   "peerDependencies": {},
   "optionalDependencies": {},
-  "homepage": "https://github.com/jhermsmeier/node-udf",
+  "homepage": "https://github.com/jhermsmeier/node-iso-udf",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhermsmeier/node-udf.git"
+    "url": "git+https://github.com/jhermsmeier/node-iso-udf.git"
   },
   "bugs": {
-    "url": "https://github.com/jhermsmeier/node-udf/issues"
+    "url": "https://github.com/jhermsmeier/node-iso-udf/issues"
   },
   "directories": {
     "doc": "doc",
